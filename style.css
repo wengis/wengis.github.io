@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    margin: 10px 50px;
+    width: 120px;
+    height: 120px;
+
+}
+
+header {
+    background-image: url(background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.nav-bar{
+    background: rgb(red, green, blue);
+    height: 80px;
+}
+.menu{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 10px 5px;
+}
+.menu li a{
+    font-family: sans-serif;
+    font-weight: 100;
+    color:black;
+    padding: 2px 10px;
+    letter-spacing: 2px;
+    border: 1px solid black;
+}
+.menu li a:hover{
+    background:black;
+    transition: .3s;
+    color: darkgray;
+    
+}
+.ratethis{
+    position: relative;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    top: 350px;
+    
+}
+
+.ratethis h1{
+    font-size: 100px;
+    color: black;
+    position: relative;
+    top: -300px;
+}
+.ratethis a{
+    color:white;
+    font-size: x-large;
+    font-family: fantasy;
+    padding: 10px;
+}
+.ratethis a:hover{
+    color: black;
+    transition: 0.2s;
+    padding: 20px;
+    
+}
+.bi{
+    
+    border: 1px solid black;
+    background: crimson;
+    
+}
+
+    
+.bi2{
+    border: 1px solid black;
+    background:darkgreen;
+   
+}
+
+.bi:hover{
+    transition: .9;
+    background: none;
+}
+
+.bi2:hover{
+    transition:.99s;
+    background: none;
+}
