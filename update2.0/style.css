@@ -148,6 +148,10 @@
     cursor: pointer;
     margin-left: 21px;
 }
+.play-btn a{
+    color: white;
+    text-decoration: none;
+}
 small{
     margin: auto 20px;
     cursor: pointer;
@@ -180,6 +184,8 @@ small:hover{
     background-color: #42455a;
 
 }
+
+
 
 @media (max-width:500px) {
     .app-text h1{
