@@ -181,5 +181,57 @@ small:hover{
 
 }
 
+@media (max-width:500px) {
+    .app-text h1{
+        font-size: 33px;
+        width: 840px;
+        position: relative;
+        margin-left: -110px;
+        
+        }
+
+    .app-text p{
+            width: 400px;
+            font-size: 12px;
+            margin:30 40px ;
+            line-height: 25px;
+            color: #919191;
+            margin-left: -110px;
+        }    
+
+        .play-btn-inner{
+            height: 25px;
+            width: 25px;
+        }
+
+        .play-btn{
+            display:ruby;
+            margin-left: -100px;
+            margin-top: 30px;
+        }
+
+        .play-btn-inner .fa{
+
+            font-size: 10px;
+            cursor: pointer;
+            
+            margin-left: 9px;
+            margin-top: -10px;
+           
+        }
+        .signup-btn{
+            right: 35px;
+        }
+
+    
+
+}
+
+        
+       
+
+
+        
+
 
 
