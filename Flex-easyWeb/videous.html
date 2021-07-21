@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javicka.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div id="mydiv">
+        <div class="mydiv-list">
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide" href="index.html" onclick="topFunction">Home</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide" href="Pictures.html" onclick="topFunction">Pictures</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide"href="picturesBL.html">B&W</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide" href="videous.html">Videous</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide"href="settings.html">Games</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide"href="#">Categories</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide" href="#">Go Premium</a></li>
+        </div>
+</div>
+    <div id="pagebox">
+        <div class="hore" id="navbar">
+            <div class="logo" onclick="topFunction">
+                <a href="#"><img style="width: 42.5px; padding-right: 5px;" src="images/dark-play.png" alt=""></a>
+                <a href="#"><h2 onclick="topFunction">Videous<span style="font-size:1.5vh">®</span></h2></a>
+            </div>
+            <div class="links">
+                <li class="no-bold"><a href="index.html"onclick="topFunction">Colors</a></li>
+                <li class="no-bold"><a href="Pictures.html" onclick="topFunction">Pictures</a></li>
+                <li class="no-bold"><a href="picturesBL.html">B&W</a></li>
+                <li class="bold"><a href="#">Videous</a></li>
+                <li class="no-bold"><a href="settings.html">Games</a></li>
+                <li class="no-bold"><a href="#">Categories</a></li>
+                <li class="no-bold"><a href="#">Go Premium</a></li>
+            </div>
+            <div class="topright-corner">
+                <div class="hamburger" onclick="myFunction(this), hideDiv()">
+                    <div class="hamburger-ham">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+                <a href="signup.html" class="sign-btn"><p class="blacky-sgn">Sign In</p></a>
+            </div>
+        </div>
+        <div class="boxin-box" style=" height: 100%; margin-top: 15vh;" >
+            
+            <iframe width="940" height="555"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+            
+        </div>
+        
+        <div class="whitesmoke whitesmoke-gradient"></div>
+        <div class="footer"></div>
+        
+    </div>
+    <script>
+        function myFunction(x){
+            x.classList.toggle("change");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pictures-style.css">
+    <link rel="stylesheet" href="blackpagebox.css">
+    <script src="javicka.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+<body onload="">
+    <div id="mydiv">
+        <div class="mydiv-list">
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide" href="index.html" onclick="topFunction">Home</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide" href="Pictures.html" onclick="topFunction">Pictures</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide"href="picturesBL.html">B&W</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide" href="videous.html">Videous</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide"href="settings.html">Games</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide"href="#">Categories</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide" href="#">Go Premium</a></li>
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide" href="signup.html"><i class="fas fa-sign-in-alt"></i> SIGN-IN</a></li>
+        </div>
+</div>
+    <div id="pagebox" class="page-box blackwhite">
+        <div class="hore" id="navbar">
+            <div class="logo" onclick="topFunction"><a href="#"><img style="padding-right:5px; width: 50px;" src="images/dark-logo.png" alt=""></a><a href="#">
+                <h2 onclick="topFunction">Darkenes<span style="font-size:1.5vh">®</span></h2>
+            </a></div>
+            <div class="links">
+                <li class="no-bold"><a href="index.html"onclick="topFunction">Colors</a></li>
+                <li class="no-bold"><a onclick="topFunction" href="Pictures.html">Pictures</a></li>
+                <li class="bold-gray"><a href="#" onclick="topFunction">B&W</a></li>
+                <li class="no-bold"><a href="videous.html">Videous</a></li>
+                <li class="no-bold"><a href="settings.html">Games</a></li>
+                <li class="no-bold"><a href="#">Categories</a></li>
+                
+                <li class="star"><a href="#" id="star" onmouseover="myStar()" onmouseout="myStar2()">☆ </a></li>  
+            </div>
+            
+            <div class="topright-corner">
+                <div class="hamburger" onclick="myFunction(this), hideDiv()">
+                    <div class="hamburger-ham">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+
+                <a href="signup.html" class="sign-btn"><p>Sign In</p></a>
+            </div>
+        </div>
+
+        <div class="boxin-box">
+            <div class="box pic1"></div>
+            <div class="box pic2"></div>
+            <div class="box pic3"></div>
+            <div class="box pic4"></div>
+            <div class="box pic5"></div>
+            <div class="box box" id="idbox"></div>
+            <div class="box pic6"></div>
+            <div class="box pic7"></div>
+            <div class="box pic8"></div>
+            <div class="box pic9"></div>
+        </div>
+
+        <div class="whitesmoke whitesmoke-pureBL" style="border-top: solid white 2px; border-bottom: solid white 2px;">
+            <div id= "black-boxin-doublebox" class="boxin-doublebox">
+                <div class="BWpicture" style="width: 500px; height: 400px;">
+                </div>
+            </div>
+        </div>
+        <div class="whitesmoke whitesmoke-gradientBl">
+        </div>
+        
+        
+        
+        <div class="footer-copyrightBL"><p>© Copyright Jan Venglar - 2021</p></div>
+    </div>
+
+    <script>
+        function myFunction(x){
+            x.classList.toggle("change");
+        }
+    </script>
+</body>
+</html>

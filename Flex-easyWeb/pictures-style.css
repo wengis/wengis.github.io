@@ -1,0 +1,308 @@
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(165, 164, 164);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.pic1{
+    background-image:url(images/photo-bw9.webp);
+}
+.pic2{
+    background-image:url(images/photo-1633.webp);
+}
+.pic3{
+    background-image:url(images/photo-ele.webp);
+}
+.pic4{
+    background-image:url(images/photo-skull.webp);
+}
+.pic5{
+    background-image:url(images/photo-bw9.webp);
+}
+.pic6{
+    background-image:url(images/photo-ele.webp);
+}
+.pic7{
+    background-image:url(images/photo-bw9.webp);
+}
+.pic8{
+    background-image:url(images/photo-1633.webp);
+}
+.pic9{
+    background-image:url(images/photo-chairs.webp);
+}
+
+#idbox{
+    background-image:url(images/photo-labu.webp);
+}
+
+.pic1:hover{
+    background-image:url(images/photo-1633.webp);
+}
+.pic2:hover{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url(images/photo-bw9.webp);
+}
+.pic3:hover{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url(images/photo-skull.webp);
+}
+.pic4:hover{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url(images/photo-ele.webp);
+}
+.pic5:hover{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url(images/photo-1633.webp);
+}
+.pic6:hover{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url(images/photo-labu.webp);
+}
+.pic7:hover{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url(images/photo-1633.webp);
+}
+.pic8:hover{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url(images/photo-bw6.webp);
+}
+.pic9:hover{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2 ) ),url(images/photo-bw9.webp);
+}
+
+#idbox:hover{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url(images/photo-bw9.webp);
+}
+
+.box:hover{
+    
+    transition: 0.05s;
+    
+}
+
+.gray{color:rgb(15, 15, 15); border: solid rgb(27, 27, 27); } 
+
+.links .bold-gray a {font-weight: bold; color:rgb(255, 255, 255)}
+
+.gray:hover{background-color:rgb(27, 27, 27) ;}
+
+.box{border: solid rgb(0, 0, 0) 2.7px;}
+
+
+.whitesmoke-pureBL{
+    width: 100%;
+    height: 100vh;
+    margin-top: 49vh;
+    /*background-color: transparent;*/
+    background-image: url(images/photo-schody.webp);
+    background-repeat: no-repeat;
+    background-color: rgb(2, 2, 2);
+    box-shadow: 0 0 50px 2px rgba(1, 1, 1, 0.6);
+}
+
+
+
+#navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70px;
+    position: fixed;
+    top:0;
+    transition: 0.2s;
+}
+.links li a{
+    text-decoration:none;
+    word-spacing: 5px;
+    font-size: 16px;
+    color:whitesmoke;
+    font-weight: 500;
+    position: relative;
+}
+
+.logo a h2{font-family:'Nunito', cursive; font-size: 21px; letter-spacing: 1.9px; color: rgb(240, 236, 236); text-decoration: none; margin-left: 4px;}
+
+.links .no-bold a:after{
+    content: '';
+    width: 0px;
+    height: 1.5px;
+    background: white;
+    bottom: -2px;
+    left: 0;
+    position: absolute;
+    transition: 0.5s;
+}
+.sign-btn{
+    border: solid 2.2px white;
+    border-radius: 10px;
+    letter-spacing: 0.7px;
+    color: white;
+    width: 77px;
+    height: 27px;
+    align-self: center;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px  rgb(112, 112, 112);
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.sign-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.whitesmoke-gradientBL{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient( black, rgb(165, 164, 164));
+    
+}
+.footerBL{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(rgb(165, 164, 164),rgb(0, 0, 0) );
+
+}
+.footer-copyrightBL{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(14, 14, 14);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: rgb(248, 248, 248);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.3px;
+    font-size: 13px;
+    
+}
+.doublebox{
+    width: 560px;
+    height: 35vh;
+    border: solid rgb(14, 14, 14) 3.2px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px  rgb(31, 31, 31);
+    background-size: auto;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url(images/photo-black.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin-top: 150px;
+    opacity: 0;
+}
+
+.curackydiv {
+    width: 90%;
+    height: 200px;
+    border: solid 1px black;
+}
+
+
+
+#sec-doublebox{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url(images/photo-intrain.webp);
+    background-size:auto;
+    cursor: pointer;
+}
+.doublebox button{
+    font-size: 11px;
+    height: 20px;
+    color: whitesmoke;
+    z-index: 2;
+    background-color: transparent;
+    border-radius: 19px;
+    cursor: pointer;
+    padding-inline: 6px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.whitesmoke-gradient{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(rgb(44, 44, 44), rgb(185, 185, 185));
+    
+}
+
+/*-----------black and white----------------------*/
+#black-boxin-doublebox {
+    width: 100%;
+    height: 700px;
+    opacity: .5;
+}
+
+
+@media (max-width: 900px) {
+    .sign-btn{display: none;}
+}
+@media (max-width: 550px) {
+
+    /*-------fullscreen-menu--------*/
+
+    #mydiv {
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        opacity: 0.96;
+        z-index: 2;
+        transition: 0.5s;
+        display: none;
+    }
+
+
+    .mydiv-list {
+        height: 90%;
+        height: 70vh;
+        margin-top: 120px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mydiv-list li {
+        font-size: 1.9em;
+        color: white;
+        padding: 8px;
+        
+    }
+
+    .mydiv-list li a {
+        color: white;
+        text-decoration: none;
+        position: relative;
+        margin-left: 5px;
+        font-family: 'Roboto';
+    }
+
+    
+
+    #li-a-hide {
+        display: block;
+        
+    }
+
+    #li-a-hide a::after {
+        content: '';
+        width: 100%;
+        height: 0.8px;
+        background: rgb(136, 136, 136);
+        left: 0;
+        bottom: -2px;
+        position: absolute;
+    }
+
+    .logo{margin-left: 45px;}
+
+}
