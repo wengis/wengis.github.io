@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javicka.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div id="mydiv">
+        <div class="mydiv-list">
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide" href="index.html" onclick="topFunction">Home</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide" href="Pictures.html" onclick="topFunction">Pictures</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide"href="picturesBL.html">B&W</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide" href="videous.html">Videous</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide"href="settings.html">Games</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide"href="#">Categories</a></li>
+
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide" href="#">Go Premium</a></li>
+            <li id="li-a-hide" class="no-bold"><a id="li-a-hide" href="signup.html"><i class="fas fa-sign-in-alt"></i> SIGN-IN</a></li>
+        </div>
+</div>
+    <div id="pagebox" style="background: linear-gradient(to left top, rgb(24,11,130), rgb(204,0,73));">
+        <div class="hore" id="navbar" style="background-color: white;">
+            <div class="logo" onclick="topFunction"><a href="#"><img src="images/dark.jpg" alt=""></a><a href="#">
+                <h2 onclick="topFunction">Pictures<span style="font-size:1.5vh">®</span></h2>
+            </a></div>
+            <div class="links">
+                <li class="no-bold"><a href="index.html"onclick="topFunction">Colors</a></li>
+                <li class="bold"><a href="#" onclick="topFunction">Pictures</a></li>
+                <li class="no-bold"><a href="picturesBL.html">B&W</a></li>
+                <li class="no-bold"><a href="videous.html">Videous</a></li>
+                <li class="no-bold"><a href="settings.html">Games</a></li>
+                <li class="no-bold"><a href="#">Categories</a></li>
+                
+                <li class="star"><a href="#" id="star" onmouseover="myStar()" onmouseout="myStar2()">☆ </a></li>  
+            </div>
+            
+            <div class="topright-corner">
+                <div class="hamburger" onclick="myFunction(this), hideDiv(), displayDiv()">
+                    <div class="hamburger-ham">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+
+                <a href="signup.html" class="sign-btn"><p>Sign In</p></a>
+            </div>
+        </div>
+
+        <div class="boxin-box">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+            <div class="box box4"></div>
+            <div class="box box5"></div>
+            <div class="box box" id="idbox"></div>
+            <div class="box box6"></div>
+            <div class="box box7"></div>
+            <div class="box box8"></div>
+            <div class="box box9"></div>
+        </div>
+
+        <div class="whitesmoke whitesmoke-pure" style="height: 75vh;">
+            <div class="boxin-doublebox" style="height: 70vh;">
+                <div class="doublebox doublebox1 reveal-picture" id="first-doublebox">
+                    <button onclick="image1()" style="z-index: 0;">CHANGE</button>
+                </div>
+                <div class="doublebox doublebox2 reveal-picture" id="sec-doublebox">
+                    <button onclick="image2()" style="z-index: 0;"> CHANGE</button>
+                </div>
+               
+               
+            </div>
+            
+        </div>
+        <div class="whitesmoke whitesmoke-gradient" style="background-color: red; height: 5vh; display: none;"></div>
+
+        <div class="footer" style="background: whitesmoke;"></div>
+        <div class="footer-copyright" style="background: whitesmoke;"><p style="color: rgb(190, 190, 190)">© Copyright Jan Venglar - 2021</p></div>
+    </div>
+
+
+    <script>
+        function myFunction(x){
+            x.classList.toggle("change");
+        }
+    </script>
+</body>
+</html>
